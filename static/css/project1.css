@@ -1,0 +1,88 @@
+.sec1{
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    background: rgb(150, 150, 150);
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #262626;
+    text-transform: uppercase;
+    font-size: 36px;
+
+}
+
+.container{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 500px !important;
+   min-height: 250px;
+   background-color: #fff;
+   border-radius: 10px;
+
+}
+
+.name{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+
+}
+.name .project_number{
+    float: left;
+    width: 30%;
+
+}
+.name .project_number p{
+    width: 70px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    background-color: rgb(170, 61, 173);
+    color:#fff;
+}
+/*.name .project_number{
+    margin: 20px;
+    margin-right: 230px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgb(170, 61, 173);
+    color:#fff;
+    
+}*/
+.name .project_name{
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+
+}
+
+.name .project_name h3{
+    font-size: 20px;
+    text-align: right;
+    margin: 20px;
+    font-weight: bold;
+}
