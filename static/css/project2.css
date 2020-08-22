@@ -131,8 +131,12 @@
         margin-bottom: 20px;
     }
     .sec0 h2{
-        font-size: 28px;
+        font-size: 25px;
+        width: calc(100% - 40px);
+        margin-left: 20px;
     }
+
+    
 
     .sidebar{
         display: none;
@@ -150,7 +154,10 @@
         margin: 30px 0;
     }
     .sec0 h2{
-        font-size: 26px;
+        font-size: 20px;
+    }
+
+    .sec0{
         margin-bottom: 40px;
     }
 
@@ -193,4 +200,5 @@
 .sidebar a:hover{
     margin-left: 0;
 }
+
 
