@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 80px;
+    margin-bottom: 60px;
 }
 
 .sec0 h2{
@@ -45,7 +46,7 @@
 
 .sec1 .container{
     max-width: 1200px;
-    padding: 0 40px;
+    padding: 00 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,17 +55,18 @@
 
 .sec1 span{
     background-color: indianred;
+    text-align: left;
 }
 
 .image, .info-menu{
     margin:0 auto;
-    width: calc(50% - 20px);
+    width: calc(50% - 40px);
 }
 
 .title{
     background-color: indianred;
     display: flex;
-    color: #fff;
+    color: #f2f2f2;
     padding: 20px;
     cursor: pointer;
     text-transform: uppercase;
@@ -84,7 +86,7 @@
     position: absolute;
     width: 14px;
     height:3px;
-    background-color: #fff;
+    background-color: #f2f2f2;
     top: -1.5px;
     
 }
@@ -97,7 +99,7 @@
 
 .text{
     background-color: rgb(122, 122, 122);
-    color:#fff;
+    color:#f2f2f2;
     line-height: 26px;
     margin: 6px 0;
     opacity: 0;
@@ -115,6 +117,19 @@
     transform: rotate(0);
 }
 
+.sec1 i{
+    background-color: rgb(122, 122, 122)
+}
+
+.sec1 .points_sum{
+    font-weight: bold;
+}
+
+.sec1 em{
+    background-color: rgb(122, 122, 122);
+    color: #000;
+    font-weight:bold 
+}
 @media screen and (max-width:960px){
     .sec1 .container{
         max-width: 600px;
@@ -200,5 +215,6 @@
 .sidebar a:hover{
     margin-left: 0;
 }
+
 
 
