@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/static/css/project2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  
+
 </head>
 
 <body>
@@ -26,9 +26,11 @@
             <div class="image">
                 <video src="/static/vid/Робот-муравей_Лаврененко И.С..mp4" poster="/static/img/123.png"
                     controls="controls" alt="" class="image2"></video>
-                    <div class="item item0" id="item0">
-                        <div class="likesblock">
-                            <a class="likebtn">
+                <div class="item item0" id="item0">
+                    <!--<div class="likesblock">
+
+                           <a class="likebtn">
+                            <i class="iconbtn far fa-heart"></i>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="likesbtnimg" x="0px" y="0px" width="50"
                                     height="50" viewBox="0 0 172 172" style=" fill:#000000;">
                                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -43,14 +45,21 @@
                                         </g>
                                     </g>
                                 </svg>
-                            </a>
+                            </a> 
+                            <p class="likes"> 222</p>
+                        </div>-->
+                    <div class="links">
+                        <div class="likesblock">
+                            <a class="likebtn iconbtn far fa-heart"></a>
                             <p class="likes"> 222</p>
                         </div>
-                        <div class="links">
-                            <a href="#" class="iconbtn fas fa-laptop" title="Сайт проекта"></a>
+                        <div class="linksblock">
+                            <a href="http://project-polytech.std-1001.ist.mospolytech.ru/"
+                                class=" right iconbtn fas fa-laptop" title="Сайт проекта"></a>
                             <a href="#" class="iconbtn fab fa-github" title="Git-репозиторий проекта"></a>
                         </div>
                     </div>
+                </div>
             </div>
 
             <div class="info-menu">
@@ -130,9 +139,24 @@
     </section>
     <section class="sec2">
         <div class="sidebar">
-            <a href="" class="">Главная</a>
-            <a href="" class="">Статьи</a>
-            <a href="" class="">Регламент</a>
+            <a href="" class="">
+                <div class="sblink homepage">
+                    <p>Главная</p>
+                    <i class="sbicon homepageic fas fa-house-damage"></i>
+                </div>
+            </a>
+            <a href="" class="sblink">
+                <div class="sblink blog">
+                    <p>Статьи</p>
+                    <i class="sbicon blogic far fa-user-circle"></i>
+                </div>
+            </a>
+            <a href="" class="sblink">
+                <div class="sblink rules">
+                    <p>Регламент</p>
+                    <i class="sbicon rulesic far fa-file"></i>
+                </div>
+            </a>
         </div>
     </section>
     <script>
