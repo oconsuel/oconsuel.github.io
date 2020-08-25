@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/static/css/project2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-
+    <script src="/static/js/script.js"></script>
 </head>
 
 <body>
@@ -64,75 +64,115 @@
 
             <div class="info-menu">
                 <div class="item" id="item1">
-                    <a href="#item1" class="title">
+                    <a onclick="toggle1(hidden_content1)" class="title">
                         <span>Описание проекта</span>
                         <i class="icon"></i>
                     </a>
-                    <p class="text">
-                        "Робот-муравей" - это дистанционно управляемый робот для проникновения в труднодоступные
-                        места с целью прокладки кабелей, получения визуальной информации и иных задач широкого
-                        спектра. Роботом можно управлять непосредственно через приложение на планшете/телефоне и,
-                        таким образом, наблюдать с помощью камеры его местонаходение и окружающую обстановку.
-                    </p>
+                    <div id="hidden_content1" style="display: none;">
+                        <p class="text" id="box">
+                            "Робот-муравей" - это дистанционно управляемый робот для проникновения в труднодоступные
+                            места с целью прокладки кабелей, получения визуальной информации и иных задач широкого
+                            спектра. Роботом можно управлять непосредственно через приложение на планшете/телефоне и,
+                            таким образом, наблюдать с помощью камеры его местонаходение и окружающую обстановку.
+                        </p>
+                    </div>
                 </div>
+                <script>
+                    function toggle1(el) {
+                        el.style.display = (el.style.display == 'none') ? '' : 'none'
+                    }
+
+                </script>
 
                 <div class="item" id="item2">
-                    <a href="#item2" class="title">
+                    <a onclick="toggle2(hidden_content2)" class="title">
                         <span>Направление</span>
                         <i class="icon"></i>
                     </a>
-                    <p class="text">
-                        Интеграция и программирование в САПР
-                    </p>
+                    <div id="hidden_content2" style="display: none;">
+                        <p class="block text">
+                            Интеграция и программирование в САПР
+                        </p>
+                    </div>
                 </div>
+                <script>
+                    function toggle2(el) {
+                        el.style.display = (el.style.display == 'none') ? '' : 'none'
+                    }
 
+                </script>
                 <div class="item" id="item3">
-                    <a href="#item3" class="title">
+                    <a onclick="toggle2(hidden_content3)" class="title">
                         <span>Участники проекта</span>
                         <i class="icon"></i>
                     </a>
-                    <p class="text">
-                        * Головченко Г.А.<br>
-                        2)Волков И.А.<br>
-                        3)Высотин И.О.<br>
-                        4)Борисенко Д.С.<br>
-                        5)Беда М.Н.<br>
-                        6)Караськова Ю.А<br>
-                        7)Колков М.Д.<br>
-                        8)Графков А.А.<br>
-                        9)Гневышев Н.К.<br>
-                    </p>
+                    <div id="hidden_content3" style="display: none;">
+                        <p class="text">
+                            * Головченко Г.А.<br>
+                            * Волков И.А.<br>
+                            * Высотин И.О.<br>
+                            * Борисенко Д.С.<br>
+                            * Беда М.Н.<br>
+                            * Караськова Ю.А<br>
+                            * Колков М.Д.<br>
+                            * Графков А.А.<br>
+                            * Гневышев Н.К.<br>
+                        </p>
+                    </div>
+                    <script>
+                        function toggle2(el) {
+                            el.style.display = (el.style.display == 'none') ? '' : 'none';
+                            
+                        }
+
+                    </script>
                 </div>
 
                 <div class="item" id="item5">
-                    <a href="#item5" class="title">
+                    <a onclick="toggle3(hidden_content4)" class="title">
                         <span>Использованные технологии</span>
                         <i class="icon"></i>
                     </a>
-                    <p class="text">
-                        1)Разработка ПО<br>
-                        2)Разработка сайта<br>
-                        3)Разработка модели<br>
-                    </p>
+                    <div id="hidden_content4" style="display: none;">
+                        <p class="text">
+                            1)Разработка ПО<br>
+                            2)Разработка сайта<br>
+                            3)Разработка модели<br>
+                        </p>
+                    </div>
+                    <script>
+                        function toggle3(el) {
+                            el.style.display = (el.style.display == 'none') ? '' : 'none'
+                        }
+
+                    </script>
                 </div>
                 <div class="item" id="item6">
-                    <a href="#item6" class="title">
+                    <a onclick="toggle4(hidden_content5)" class="title">
                         <span>Оценка экспертов</span>
                         <i class="icon"></i>
                     </a>
-                    <p class="text">
-                        10 / <em>10</em> - <i>lorem</i><br>
+                    <div id="hidden_content5" style="display: none;">
+                        <p class="text">
+                            10 / <em>10</em> - <i>lorem</i><br>
 
-                        20 / <em>20</em> - <i>lorem</i><br>
+                            20 / <em>20</em> - <i>lorem</i><br>
 
-                        40 / <em>40</em> - <i>lorem</i><br>
+                            40 / <em>40</em> - <i>lorem</i><br>
 
-                        5 / <em>10</em> - <i>lorem</i><br>
+                            5 / <em>10</em> - <i>lorem</i><br>
 
-                        20 / <em>20</em> - <i>lorem</i><br>
+                            20 / <em>20</em> - <i>lorem</i><br>
 
-                        <i class="points_sum">Итого: </i> 95 / <em>100</em> баллов
-                    </p>
+                            <i class="points_sum">Итого: </i> 95 / <em>100</em> баллов
+                        </p>
+                    </div>
+                    <script>
+                        function toggle4(el) {
+                            el.style.display = (el.style.display == 'none') ? '' : 'none'
+                        }
+
+                    </script>
                 </div>
             </div>
         </div>
