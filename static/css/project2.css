@@ -88,6 +88,7 @@ header{
     padding: 11px 60px;
     margin: 0; 
     line-height: 1;
+    
 }
 
 .sec0 h4{
@@ -106,7 +107,6 @@ header{
 
 .sec1 .container{
     max-width: 1200px;
-    padding: 00 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -127,7 +127,6 @@ header{
 .image2{
     margin:0 auto;
     width:100%;
-    padding: 10px;
 }
 
 .likebtn{
@@ -300,8 +299,8 @@ header{
 
 .sidebar{
     position: absolute;
-    top:50%;
-    transform:translateY(-190%);
+    top:35%;
+    transform:translateY(-100%);
 }
 
 .sidebar a{
@@ -315,10 +314,11 @@ header{
     text-decoration: none;
     margin:8px 0;
     border-radius: 6px;
-    margin-left: -100px;
+    margin-left: -110px;
     transition: 0.6s all;
     font-weight: bold;
     text-align: left;
+    height:40px;
 }
 
 .sidebar a:hover{
@@ -331,6 +331,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 40px;
 }
 
 .sidebar p{
@@ -405,7 +406,6 @@ header{
     }
     .sec0 h2{
         font-size: 25px;
-        width: calc(100% - 40px);
         margin-left: 20px;
         text-align: center;
     }
