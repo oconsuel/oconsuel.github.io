@@ -6,15 +6,35 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/static/css/project2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <script src="/static/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <header>
+        <div class="inner-width">
+          <i class="menu-toggle-btn fas fa-bars"></i>
+          <nav class="navigation-menu">
+            <a href="#"><i class="fas fa-house-damage home"></i>Главная</a>
+            <a href="#"><i class="far fa-user-circle rules"></i> Блог</a>
+            <a href="#"><i class="far fa-file blog"></i> Регламент</a>
+          </nav>
+        </div>
+      </header>
+      <script type="text/javascript">
+      $(".menu-toggle-btn").click(function(){
+        $(this).toggleClass("fa-times");
+        $(".navigation-menu").toggleClass("active");
+      });
+    </script>
     <section class="sec0">
         <div class="container">
             <h2 class="name">Робот-муравей</h2>
@@ -80,6 +100,9 @@
                 <script>
                     function toggle1(el) {
                         el.style.display = (el.style.display == 'none') ? '' : 'none'
+                        el.querySelector(".icon").classList.add("active_icon");
+                        var styleElem = document.head.appendChild(document.createElement("style"));
+                        styleElem.innerHTML = ".active_icon::after {rotate(90deg);transition: .5s linear;}";
                     }
 
                 </script>
@@ -122,7 +145,7 @@
                     <script>
                         function toggle2(el) {
                             el.style.display = (el.style.display == 'none') ? '' : 'none';
-                            
+
                         }
 
                     </script>
