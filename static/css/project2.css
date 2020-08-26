@@ -76,7 +76,7 @@ header{
     align-items: center;
     justify-content: center;
     margin-top: 80px;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 .sec0 h2{
@@ -99,10 +99,11 @@ header{
 }
 
  .sec1{
-    min-height: 80vh;
-	display: flex;
+    min-height: 10vh;
+    display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0;
 }
 
 .sec1 .container{
@@ -111,6 +112,7 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 0;
 }
 
 .sec1 .title span{
@@ -127,7 +129,6 @@ header{
 .image2{
     margin:0 auto;
     width:100%;
-	margin-bottom:20px;
 }
 
 .likebtn{
@@ -223,7 +224,6 @@ header{
 .right{
     margin-left: auto;
 }
-
 .links{
     
     height: 60px;
@@ -405,6 +405,7 @@ header{
 
     .sec0 {
         margin-bottom: 20px;
+        margin-top:0;
     }
     .sec0 h2{
         font-size: 25px;
