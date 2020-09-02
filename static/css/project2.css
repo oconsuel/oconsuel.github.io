@@ -99,7 +99,7 @@ header{
 }
 
  .sec1{
-    
+    min-height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
